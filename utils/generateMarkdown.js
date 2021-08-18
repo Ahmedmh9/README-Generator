@@ -96,7 +96,6 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Tests](#Tests)
   * [Contributions](#Contributions)
-  * [Credits](#Credits)
   * [Contact](#Contact)
   
   ## Installation 
@@ -107,18 +106,17 @@ function generateMarkdown(data) {
   ${data.usage}
   ## License
   ${renderLicenseBadge(data.license)}
-  License info here: ${renderLicenseLink(data.license)}
-  ${renderLicenseSection(data.license)}
   ## Contributions
   ${data.contributors}
   ## Tests
   For tests use the following commands: ${data.test}
   
   ## Questions?
-  Contact:
-  *GitHub: https://github.com/${data.github}
-  *Email: ${data.email}
+  Contact me at:
+  GitHub: https://github.com/${data.github}
+  * E-mail: ${data.email}
 `;
 }
+
 
 module.exports = generateMarkdown;

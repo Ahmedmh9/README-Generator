@@ -1,4 +1,5 @@
 # README-Generator
+# README-Generator
   ## Description
   This is an application that would easily help the user create a README file by using the command-line
   https://github.com/ahmedmh9/README-Generator
